@@ -1,0 +1,24 @@
+{
+  "name": "cypress_automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "executeTest": "npx cypress run --spec C:\\Cypress_Automation\\cypress\\e2e\\Actions --browser chrome --headed",
+    "CloudTest":"npx cypress run --spec .\\cypress\\e2e\\FileUpload\\fileupload.spec.cy.js --headed --browser chrome --record --key 6f09f0b9-f304-47dd-9870-74353614a9c6"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@4tw/cypress-drag-drop": "^2.2.5",
+    "cypress": "^13.6.2"
+  },
+  "dependencies": {
+    "cypress-file-upload": "^5.0.8",
+    "cypress-iframe": "^1.0.1",
+    "cypress-xpath": "^2.0.1"
+  }
+}
